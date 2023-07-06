@@ -19,36 +19,7 @@ const App = () => {
   };
 
   const handleUpload = () => {
-    // if (capturedImage) {
-
-
-    //   const formData = new FormData();
-    //   formData.append('file', file);
-    //   formData.append('name', 'capturedImage.png');
-    //   formData.append('empName', 'akash');
-    //   formData.append('empId', 'SI006423');
-    //   formData.append('category', 'bowl');
-    //   formData.append('chunks', 1);
-    //   formData.append('chunk', 0);
-
-
-
-    //   axios
-    //     .post('http://10.175.206.38:3038/api/image-upload', formData, {
-    //       headers: {
-    //         'Content-Type': 'multipart/form-data',
-    //       },
-    //     })
-    //     .then((response) => {
-    //       console.log('Image uploaded successfully:', response.data);
-    //       // Perform any additional actions after successful upload
-    //     })
-    //     .catch((error) => {
-    //       console.error('Error uploading image:', error);
-    //       // Handle upload error
-    //     });
-    // }
-
+  
     if (capturedImage) {
       const blobUrl = capturedImage;
       const filename = 'capturedImage.png';
